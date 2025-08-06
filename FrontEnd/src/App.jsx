@@ -1,12 +1,11 @@
 import './index.css';
-import { Header } from './components/Header/Header.jsx';
-import PostCardDelete from './components/PostCard/PostCardDelete.jsx';
+import Feed from './pages/Feed/Feed';
+
 
 function App() {
   return (
     <>
-      <Header />
-      <PostCardDelete />
+      <Feed />
     </>
   );
 }
